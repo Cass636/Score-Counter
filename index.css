@@ -1,0 +1,40 @@
+@font-face {
+    font-family: scoreFont;
+    src: url(CursedTimerUlil-Aznm.ttf)
+}
+
+body {
+    background-color: blue;
+    
+    
+}
+.hm-gst {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+    color: white;
+    
+}
+h1 {
+    margin-bottom: 0px;
+}
+.score {
+    color: red;
+    font-family: scoreFont;
+    background-color: black;
+    font-size: 600%;
+    margin: 0px 0px 10px 0px;
+    padding: 10px 0px 0px 0px;
+   
+    
+}
+#reset-btn {
+    display: block;
+    margin: 20px auto;
+}
+.btn {
+    color: darkgreen;
+    background-color: lightsalmon;
+    border-radius: 20%; 
+}

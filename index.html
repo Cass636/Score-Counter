@@ -1,0 +1,27 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="hm-gst">
+            <div id="hm">
+                <h1> HOME</h1>
+                <p class="score" id="hm-score"> 0 </p>
+                <button class="btn" onclick= "plus1hm()" > +1 </button>
+                <button class="btn" onclick= "plus2hm()"> +2 </button>
+                <button class="btn" onclick= "plus3hm()"> +3 </button>
+               
+            </div>
+            <div id="gst">
+                <h1> GUEST </h1>
+                <p class="score" id="gst-score"> 0 </p>
+                <button class="btn" onclick= "plus1gst()" > +1 </button>
+                <button class="btn" onclick= "plus2gst()"> +2 </button>
+                <button class="btn" onclick= "plus3gst()"> +3 </button>
+            </div>
+        </div>
+        <button id="reset-btn" onclick="reset()"> RESET GAME </button>
+        
+    <script src="index.js"></script>
+    </body>
+</html>
